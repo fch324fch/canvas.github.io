@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas画板</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="menu">
+        <div class="btn active" id="huabi" style="background-image:url('./画笔.png')"></div>
+        <div class="btn" id="rect">矩形</div>
+        <input type="text" value="1" id="line" name="line" class="btn">
+        <input class="btn" type="color" name="color" id="color" value="#000000">
+        <div class="btn" id="eraser" style="background-image:url('./橡皮擦.png')"></div>
+        <div class="btn" id="clear">清屏</div>
+    </header>
+    <canvas id="canvas"></canvas>
+    <script src="./main.js"></script>
+</body>
+
+</html>
